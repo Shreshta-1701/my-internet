@@ -184,6 +184,11 @@ ytd-merch-shelf-renderer, .annotation{
   top: 0 !important;
 }
 
+[theater=""] #full-bleed-container::webkit-scrollbar{
+  display: none;
+}
+
+
 #masthead-container, #columns #secondary{
   transition: all 0.3s ease-in-out 0.5s !important;
 }
